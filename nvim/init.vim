@@ -32,6 +32,7 @@ set background=dark
 let mapleader = "\\"
 
 nnoremap <leader>\ ``
+nnoremap <C-K><C-R> :LspRename<CR>
 nnoremap <silent> <leader>p :%w !lp<CR>
 nnoremap <space> :
 nnoremap o o<esc>
@@ -54,6 +55,14 @@ nnoremap <c-right> <c-w><
 nnoremap <c-k><c-v> :vsplit<CR>
 nnoremap <c-k><c-h> :split<CR>
 nnoremap <c-e> :Explore<CR>
+nnoremap gd <Cmd>lua vim.lsp.buf.definition()<CR>
+nnoremap gr <Cmd>lua vim.lsp.buf.references()<CR>
+nnoremap gi <Cmd>lua vim.lsp.buf.implementation()<CR>
+nnoremap K <Cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap <C-k> <Cmd>lua vim.lsp.buf.signature_help()<CR>
+nnoremap <space>rn <Cmd>lua vim.lsp.buf.rename()<CR>
+nnoremap <space>ca <Cmd>lua vim.lsp.buf.code_action()<CR>
+nnoremap <space>f <Cmd>lua vim.lsp.buf.formatting()<CR>
 
 " }}}
 
@@ -135,6 +144,7 @@ call plug#begin()
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
     Plug 'neovim/nvim-lspconfig'
+    Plug 'nvim-telescope/telescope.nvim'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
@@ -180,7 +190,7 @@ augroup END
 
 lua << EOF
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = { "vimdoc", "lua", "python", "cpp", "html", "javascript", "go" }, 
+  ensure_installed = { "vimdoc", "lua", "python", "cpp", "html", "javascript", "typescript", "go" }, 
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
