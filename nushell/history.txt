@@ -1,0 +1,158 @@
+whoami
+shutdown -P now
+hlep
+help
+help commands
+firefox
+firefox &
+help operators
+help modules
+firefox &&
+exirt
+exit
+nvim ~/.config/hypr/hyprland.conf
+curl -sS https://starship.rs/install.sh | sh<\n>
+nu --version
+mkdir ~/.cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+$nu.config-path
+nvim ~/.config/nushell/config.nu
+exit
+ls
+pwd
+ls
+ls -la 
+nvim ~/.bashrc
+^shutdown now
+help externs 
+^systemctl poweroff
+exit
+ls
+^systemctl poweroff
+ls
+nvim ~/.config/hypr/hyperland/
+sudo dnf install waybar
+mkdir -p ~/.config/waybar
+mkdir ~/.config/waybar
+firefox
+nvim ~/.config/i3/config
+journalctl -xe | grep i3<\n>
+dmenu_run
+cat ~/.xsession-errors | grep -i error<\n>
+i3 -V > ~/i3_verbose.log 2>&1<\n>
+nvim ~/.config/i3/config
+ls -lt ~/.cache/hyprland/ | head -n 1<\n>
+ls -la ~/.cache/hyprland/ | head -n 1<\n>
+cat $XDG_RUNTIME_DIR/hypr/$(ls -t $XDG_RUNTIME_DIR/hypr/ | head -n 1)/hyprland.log<\n>
+coredumpctl debug Hyprland<\n>
+coredumpctl info 2128 > hyprland_crash.log<\n>
+sudo dnf update mesa wayland glibc Hyprland<\n>
+sudo dnf upgrade --refresh
+journalctl -xeu Hyprland<\n>
+journalctl -p err -b | grep -i hyprland<\n>
+journalctl -b<\n>
+journalctl --since "10 minutes ago"<\n>
+hyprland
+exit
+^systemctl logoff
+^systemctl logout
+^systemctl reboot
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+nvim ~/.config/starship.toml
+ls ~/.config/
+alacritty
+nvim ~/.config/hypr/hyprland.conf
+sudo dnf hyprpaper
+sudo dnf install wayland-devel wayland-protocols-devel hyprlang-devel pango-devel cairo-devel file-devel libglvnd-devel libglvnd-core-devel libjpeg-turbo-devel libwebp-devel gcc-c++ hyprutils-devel hyprwayland-scanner
+nvim ~/.config/hypr/hyprland.conf
+waybar &
+waybar | ignore &
+waybar | ignore
+sudo dnf install pueue
+cargo install --locked pueue
+pueue
+ls ~/.cargo/bin/
+nvim ~/.bashrc
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+pueue 
+pueue --version
+nvim ~/.config/nushell/config.nu
+nano ~/.config/nushell/config.nu
+ls
+cat ~/.config/nushell/config.nu
+bat
+sudo dnf install pueue
+$env.PATH = "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$env.HOME/.cargo/bin:$env.HOME/go/bin:$env.HOME/.local/bin:$env.HOME/.local/bin/mongodb/bin:/home/vpereira/.turso:/usr/local/bin/sublist3r"
+nvim ~/.config/nushell/config.nu
+pueue --version
+source ~/.config/nushell/config.nu
+pueue --version
+sublist3r --version
+echo $PATH
+$env.Path
+$env
+nvim ~/.bashrc
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+sublist3r --version
+nvim ~/.config/nushell/config.nu
+$env
+$env.PATH
+pueue --version
+$env
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+ls
+sudo dnf install hyprlock
+sudo dnf install dolphin
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+$env.GOPATH
+$env.PATH
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+$env.PATH
+ls
+ls go/bin/
+gobuster --help
+air
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+gobuster --help
+$env.PATH
+nvim /.bashrc
+ls
+ls -la
+nvim ~/.bashrc
+source ~/.config/nushell/config.nu
+$env.PATH
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+$env.PATH
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+$env.PATH
+pueue --version
+pueue --help
+pueue add firefox
+ls
+sudo dnf install exa
+exa
+exa -la
+exa --help
+exa --git
+cd .config/
+exa
+exa --git
+git status
+git add .
+git remove .
+git status
+git restore --staged .
+git status
